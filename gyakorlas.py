@@ -160,6 +160,9 @@ def feladat12b():
         else:
             print("Helytelen adat!")
 
+    vegzett = eredmenyek - serultek
+    szazalek = vegzett / letszam * 100
+    atlagered = szintido / vegzett
     if monoton:
         print("A számsor szingorúan monoton")
         print(vegzett, "sikeres befutó", szazalek, "%-a ért be a veresenyzőknek", "átlag teljesítményük:", atlagered,
